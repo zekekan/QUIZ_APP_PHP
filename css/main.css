@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+.front-bg {
+	background: #000 none repeat scroll 0 0;
+    position: fixed;
+	width: 200%;
+	height: 200%;
+   }
+
+.front-bg img {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    min-height: 50%;
+    min-width: 50%;
+    right: 0;
+    top: 0;
+}
+
+header {
+	top: 0px;
+	background-color: #FFFFFF;
+	padding: 20px 0 20px 80px;
+    position:fixed;
+    height: auto;
+    width: 100%;
+    z-index: 100;
+}
+
+footer {
+	bottom: 0px;
+	font-size: 10px;
+	padding: 5px;
+  position:fixed;
+  height: auto;
+  width: 100%;
+  z-index: 100;
+	text-align: right;
+	right: 20px;
+}
+
+#main {
+	width: 1200px;
+	position: absolute;
+	margin: 0 auto;
+	top: 23%;
+	left: 50%;
+  transform: translate(-50%);
+}
+
+#left-control {
+	float: left;
+	margin-left: 10%;
+}
+
+#intro-text {
+	float: left;
+	margin-left: 15%;
+	font-size: 130%;
+}
+
+.signin {
+	padding: 15px;
+	border: 1px solid #e1e8ed;
+	border-radius: 4px;
+	width: 275px;
+	background: rgba(248, 248, 255, .8);
+}
+
+.signup {
+	border: 1px solid #e1e8ed;
+	border-radius: 4px;
+	margin-top: 30px;
+	width: 305px;
+	background: rgba(248, 248, 255, .8);
+}
+
+.login-bt {
+	background-color: #0099CC;
+    border: 1px solid #e1e8ed;
+    border-radius: 3px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 6px;
+    margin-left: 5px;
+}
+
+.signup h2 {
+	padding: 0 10px;
+	border-bottom: 1px solid #e1e8ed;
+    color: #66757f;
+	margin: 10px 0;
+	padding-bottom: 5px;
+	font-size: 24px;;
+}
+
+.signup .field {
+	margin: 0 15px;
+}
+
+td {
+	vertical-align: top;
+}
+
+.e-message {
+	color: red;
+}
+
+.inputField {
+	width: 275px;
+	height: 30px;
+	font-size: 15px;
+	border-radius: 3px;
+	display: inline-block;
+}
+
+.field .inputField {
+	margin-top: 10px;
+}
+
+.signup-btn {
+	background-color: #ccd6dd;
+    border: 1px solid #e1e8ed;
+    border-radius: 3px;
+    color: #66757f;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: normal;
+    padding: 5px 10px;
+    position: relative;
+    left: 134px;
+    margin: 10px auto;
+}
+
+.desc {
+	font-size: 90%;
+	line-height: 30px;
+}
